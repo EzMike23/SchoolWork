@@ -1,0 +1,1 @@
+The goal of this exercise is to implement a C program to calculate the mathematical constant π.

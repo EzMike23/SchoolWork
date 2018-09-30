@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="maths">
+      <UniqueIdentifier>{77a099ec-7410-4b2e-950d-cdb449d15a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ray">
+      <UniqueIdentifier>{5884d95b-684c-4526-b8ca-63d025d72d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ray\Material">
+      <UniqueIdentifier>{bead959a-c457-4145-b947-e0294e47de1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ray\Geometry">
+      <UniqueIdentifier>{b8083833-b488-45ee-ab0a-806c0b983eb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\mathstypes.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\plane.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\plane2.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\vec2.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\vec3.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\color.h">
+      <Filter>ray</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\compute.h">
+      <Filter>ray</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\light.h">
+      <Filter>ray</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\object.h">
+      <Filter>ray</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\ray.h">
+      <Filter>ray</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\Geometry\geometry.h">
+      <Filter>ray\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\Geometry\rayplane.h">
+      <Filter>ray\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\Geometry\raysphere.h">
+      <Filter>ray\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ray\Material\material.h">
+      <Filter>ray\Material</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ray\compute.cpp">
+      <Filter>ray</Filter>
+    </ClCompile>
+    <ClCompile Include="ray\object.cpp">
+      <Filter>ray</Filter>
+    </ClCompile>
+    <ClCompile Include="ray\Geometry\rayplane.cpp">
+      <Filter>ray\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ray\Geometry\raysphere.cpp">
+      <Filter>ray\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ray\Material\material.cpp">
+      <Filter>ray\Material</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
